@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Coming+Soon|Nanum+Pen+Script|Patrick+Hand|Reenie+Beanie&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1> Quiz Time, are you really a Black Panther fan? </h1>
+		<form id="quiz" name="quiz">
+			<!-- 1 -->
+			<div id="question"><p>Where was Erik Killmonger brought up as a child?</p></div>
+			<div id="questions">
+				<p><input type="radio" name="one" value="California">California</p>
+				<p><input type="radio" name="one" value="Singapore">Singapore</p>
+				<p><input type="radio" name="one" value="Wakanda">Wakanda</p>
+				<p><input type="radio" name="one" value="Paris">Paris</p>
+			</div>
+			<hr>
+			<!-- 2 -->
+			<div id="question"><p>T'Challa is the king of Wakanda. What was the previous king, T'Challa's father, called?</p></div>
+			<div id="questions">
+				<p><input type="radio" name="two" value="Azzuri">Azzuri</p>
+				<p><input type="radio" name="two" value="S'Yan">S'Yan</p>
+				<p><input type="radio" name="two" value="T'Chaka">T'Chaka</p>
+				<p><input type="radio" name="two" value="T'Challa the First">T'Challa the First</p>
+			</div>
+			<hr>
+			<!-- 3 -->
+			<div id="question"><p>What is the name of the elite all-women bodyguard squad commanded by Okoye?</p></div>
+			<div id="questions">
+				<p><input type="radio" name="three" value="Squad">Panther Squad</p>
+				<p><input type="radio" name="three" value="Dora">Dora Milaje</p>
+				<p><input type="radio" name="three" value="Power">Power Puff Girls</p>
+				<p><input type="radio" name="three" value="Silver">Silver Arrows</p>
+			</div>
+			<hr>
+			<!-- 4 -->
+			<div id="question"><p>What is the name of the legendary first Black Panther, who united the 5 tribes of Wakanda?</p></div>
+			<div id="questions">
+				<p><input type="radio" name="four" value="Bashenga">Bashenga</p>
+				<p><input type="radio" name="four" value="Keith">Keith</p>
+				<p><input type="radio" name="four" value="Zuri">Zuri</p>
+				<p><input type="radio" name="four" value="N'Jobu">N'Jobu</p>
+			</div>
+			<!-- 5 -->
+			<div id="question"><p>What advice does Okoye give to T'Challa before he jumps out of the Royal Talon Flyer at the start of the movie?</p></div>
+			<div id="questions">
+				<p><input type="radio" name="five" value="Freeze">Don't Freeze</p>
+				<p><input type="radio" name="five" value="Forever">Wakanda Forever</p>
+				<p><input type="radio" name="five" value="Smile">Don't Smile</p>
+				<p><input type="radio" name="five" value="Remember">Remember</p>
+			</div>
+			<hr>
+			<button id="done" type="button">Submit</button>
+		</form>
+
+		<div id="hide">
+			<p id="result"></p>
+			<button id="refresh" type="submit"><a href="quiz.html">Try Again</a></button>
+		</div>
+		
+	</div>
+
+	<hr>
+	<script type="text/javascript" src="quiz.js"></script>
+
+</body>
+</html>

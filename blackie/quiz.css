@@ -1,0 +1,43 @@
+#hide {
+	visibility: hidden;
+}
+
+.container {
+	margin: 5%;
+}
+
+h1 {
+	font-family: 'Cabin Sketch', cursive;
+	padding-bottom: 50px;
+}
+
+#questions {
+	border-left: solid;
+	border-left-color: #7D7D7D;
+	border-left-width: 5px;
+}
+
+p {
+	margin: 10px;
+	font-family: 'Stylish', sans-serif;
+	font-size: 25px;
+}
+
+#question {
+	border-left: solid;
+	border-left-color: #414FCA;
+	border-left-width: 5px;
+}
+
+#result {
+	padding: 20px;
+
+}
+
+body {
+	background-image: url("wall4.jpg");
+}
+
+#done {
+	background-color: #FFFFFF;
+}

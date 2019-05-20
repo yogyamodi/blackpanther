@@ -1,0 +1,70 @@
+body {
+	background-image: url("wood1.jpg");
+}
+
+h1 {
+	font-family: 'Cabin Sketch', cursive;
+	padding: 50px;
+	text-align: center;
+}
+
+
+p {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 30px;
+	padding: 10px;
+}
+
+#outer {
+	width: 60%;
+	margin: 3% 20%;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #7D7D7D;
+	border-radius: 18px;
+	background-image: url("oldie.jpg");
+	background-position: center;
+}
+
+
+#next {
+	width: 80%;
+	display: block;
+}
+
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    width: 80%;
+}
+
+.date {
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #7D7D7D;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+.post {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 30px;
+	padding: 10px;
+}
+
+/*
+font-family: 'Special Elite', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Sue Ellen Francisco', cursive;
+
+font-family: 'Patrick Hand', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Coming Soon', cursive;
+font-family: 'Caveat Brush', cursive;
+*/
